@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
     res.json({
       message: "🦄🌈✨👋🌎🌍🌏✨🌈🦄",
     });
-  });
+});
 app.use("/users", userRouter);
 app.use("/message", messageRouter);
 
